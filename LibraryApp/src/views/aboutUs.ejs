@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+		<title>Storystrap Template</title>
+		<meta name="generator" content="Bootply" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
+		<!--[if lt IE 9]>
+			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<link href="css/styles.css" rel="stylesheet">
+	</head>
+	<body>
+<header class="navbar navbar-bright navbar-fixed-top" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="/" class="navbar-brand">Home</a>
+    </div>
+    <nav class="collapse navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav">
+        <% for(var i=0 ; i<nav.length ; i++){%>
+            <li><a href="<%=nav[i].link%>"><%=nav[i].title%></a></li>
+        <%}%>
+      </ul>
+      <ul class="nav navbar-right navbar-nav">
+        <li class="dropdoRead morewn">
+          <a href="#" claRead moress="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-search"></i></a>
+          <ul class="dropdown-menu" style="padding:12px;">
+            <form class="form-inline">
+              <button type="submit" class="btn btn-default pull-right"><i class="glyphicon glyphicon-search"></i></button><input type="text" class="form-control pull-left" placeholder="Search">
+            </form>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<div id="masthead">  
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7">
+        <h1><%=title%>
+          <p class="lead">About Us</p>
+        </h1>
+      </div>
+      <div class="col-md-5">
+        <div class="well well-lg"> 
+          <div class="row">
+            <div class="col-sm-12">
+              
+			
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </div><!-- /cont -->
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="top-spacer"> </div>
+      </div>
+    </div> 
+  </div><!-- /cont -->
+  
+</div>
+
+
+<div class="container">
+  <div class="row">
+    
+    <div class="col-md-12"> 
+      
+      <div class="panel">
+        <div class="panel-body">
+          
+          
+          
+          <!--/stories-->
+         <center>
+            <img src="http://www.twpusc.org/images/header-photos/Library%20Main%20Header%2011618.jpg" width="1000cm"/>
+          </center> 
+         <br>
+          <p >"Library" (the app), developed and maintained by the Leisure and Cultural Services Department (LCSD) of the Hong Kong Special Administrative Region Government, provides a safe and convenient channel to access the services of the Hong Kong Public Libraries. Through the app, members of the public can: 
+
+              > access to and Management of multiple library accounts 
+              > viewing of transaction history 
+              > search, reserve and renew library materials 
+              > save and retrieve library materials in My Lists 
+              > check the addresses and opening hours of public libraries 
+              > locate the nearest libraries via GPS 
+              > use personalised alert services to receive notifications, including pick-up notices and due date reminders
+              > search library materials by scanning the ISBN barcode
+              > share the information of library materials to friends through e-mail, instant messaging tools and social sharing platforms
+              > paying overdue fines and reservation fees by mobile payment services 
+              
+              Personal Information Collection Statement 
+              1. The personal data collected in the app will only be used for processing your library account or handling your enquiry.
+              2. The personal data required in the app include your library card number/Hong Kong identity card number and your library account password. Whether you store your personal data in the app is optional. If you have logged in with your Hong Kong identity card number, it will be converted and saved as a library card number.
+              3. The app will collect the device model, system version, usage and login records as general statistical data for helping the LCSD compile statistics or diagnosing system problems, so as to enhance the app and facilitate your use of our library services.
+              4. The app will obtain your location data via GPS and show you the nearest public libraries and any related information. Your location data will not be saved in the app.
+              5. The function of direct phone calling to branch libraries is provided in the app, but it will not collect any personal data.
+              6. The personalized library information notification service provided in the app will send the identifier of your device together with your alert messages to Google Inc. or Apple Inc., from whom the messages will be pushed to your device. On Android system, the app will also collect the MAC address for checking purpose.
+              7. The social media sharing function for library item information provided in the app will not release your personal data to any external parties. However, the privacy policy for handling personal data from other social media is beyond the control of LCSD and LCSD would not accept any joint liability.
+              8. The Leisure and Cultural Services Department (LCSD) is committed to ensuring that all personal data provided through the app is handled in accordance with the relevant provisions of the Personal Data (Privacy) Ordinance. For details about the privacy policy of the LCSD </p>
+          <!--/stories-->
+          
+        
+          <a href="/" class="btn btn-primary pull-right btnNext">More <i class="glyphicon glyphicon-chevron-right"></i></a>
+        
+          
+        </div>
+      </div>
+                                                                                       
+	                                                
+                                                      
+   	</div><!--/col-12-->
+  </div>
+</div>
+                                                
+                                                                                
+<hr>
+
+<div class="container" id="footer">
+  <div class="row">
+    <div class="col col-sm-12">
+      
+      <h1>Follow Us</h1>
+      <div class="btn-group">
+       <a class="btn btn-twitter btn-lg" href="#"><i class="icon-twitter icon-large"></i> Twitter</a>
+	   <a class="btn btn-facebook btn-lg" href="#"><i class="icon-facebook icon-large"></i> Facebook</a>
+	   <a class="btn btn-google-plus btn-lg" href="#"><i class="icon-google-plus icon-large"></i> Google+</a>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<hr>
+
+<hr>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <ul class="list-inline">
+          <li><i class="icon-facebook icon-2x"></i></li>
+          <li><i class="icon-twitter icon-2x"></i></li>
+          <li><i class="icon-google-plus icon-2x"></i></li>
+          <li><i class="icon-pinterest icon-2x"></i></li>
+        </ul>
+        
+      </div>
+      <div class="col-sm-6">
+          <p class="pull-right">Built with <i class="icon-heart-empty"></i> at <a href="http://www.bootply.com">Bootply</a></p>      
+      </div>
+    </div>
+  </div>
+</footer>
+	<!-- script references -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>
